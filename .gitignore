@@ -1,0 +1,109 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+*venv/
+python_env/
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+.spyproject/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# ============================================================
+# 数据文件 — 原始数据体积大，不纳入版本控制
+# ============================================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# 但保留 README
+!data/README.md
+
+# ============================================================
+# 模型 & 二进制文件
+# ============================================================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.onnx
+models/*
+!models/.gitkeep
+model/
+checkpoints/*
+checkpoints/
+
+# ============================================================
+# 系统 & 操作系统
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# 日志 & 缓存
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ============================================================
+# 报告生成文件
+# ============================================================
+reports/figures/*.png
+reports/figures/*.pdf
+reports/figures/*.svg
+!reports/figures/.gitkeep
+
+# ============================================================
+# 环境 / 密钥
+# ============================================================
+.env
+.env.*
+!.env.example
+secrets.yaml
+credentials.json
+*.secret
+
+# ============================================================
+# Jupyter Notebook 输出
+# ============================================================
+# （可选：如果 notebook 含大量输出，取消下面注释）
+# notebooks/*.nbconvert.ipynb
