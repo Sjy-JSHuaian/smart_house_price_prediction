@@ -8,6 +8,8 @@
 
 > 部署于 [Streamlit Community Cloud](https://streamlit.io/cloud)，无需安装即可试用。
 
+![App Screenshot](reports/figures/app_screenshot.png)
+
 ## Quick Start
 
 ```bash
