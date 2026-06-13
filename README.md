@@ -2,6 +2,12 @@
 
 基于 California Housing 数据集的房价预测系统，包含完整的 ML 流水线：EDA → 预处理 → 多模型训练 → 交互式 Web 应用。
 
+## Live Demo
+
+:point_right: **[在线体验 →](https://sjy-jshuaian-smart-house-price-predicti-appstreamlit-app-qsxhor.streamlit.app/)**
+
+> 部署于 [Streamlit Community Cloud](https://streamlit.io/cloud)，无需安装即可试用。
+
 ## Quick Start
 
 ```bash
